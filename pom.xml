@@ -2,17 +2,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.javacodegeeks</groupId>
-	<artifactId>junit</artifactId>
+	<artifactId>Java-archive</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>JUnit Hello World</name>
+	<packaging>jar</packaging>
 	<description>Describes the basic usage of JUnit</description>
-	<dependencies>
+	<!--<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
-	</dependencies>
+	</dependencies>-->
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -34,7 +35,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<reporting>
+	<!--<reporting>
     		<plugins>
         		<plugin>
             			<groupId>com.javacodegeeks</groupId>
@@ -60,5 +61,5 @@
 				</configuration>
         		</plugin>
     		</plugins>
-	</reporting>
+	</reporting>-->
 </project>
