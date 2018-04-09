@@ -39,12 +39,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http:/158.85.231.24:8081/repository/maven-release-devops/</url>
+            <url>http:/158.85.231.24:8081/repository/maven-release-test/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://158.85.231.24:8081/repository/maven-snapshots-devops/</url>
+            <url>http://158.85.231.24:8081/repository/maven-snapshots-test/</url>
         </snapshotRepository>
 </distributionManagement>
 	<!--<reporting>
