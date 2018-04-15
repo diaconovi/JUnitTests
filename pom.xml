@@ -5,7 +5,7 @@
 	<artifactId>junit</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>JUnit Hello World</name>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<description>Describes the basic usage of JUnit</description>
 	<dependencies>
 		<dependency>
